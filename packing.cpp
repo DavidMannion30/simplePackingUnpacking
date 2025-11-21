@@ -51,7 +51,7 @@ int main()
     // printf("%d\n", idRec);
     // printf("%d\n", orderRec);
 
-    cout << (int)exchRec << endl;
+    cout << (int)exchRec << endl;                // uint8_t is a char, convert back to int to print
     cout << (int)idRec << endl;
     cout << orderRec << endl;
 
